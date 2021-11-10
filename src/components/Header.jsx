@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 
 const Header = () => {
@@ -11,7 +11,6 @@ const Header = () => {
                     <img src='../styles/icons/icon-menu-portfolio.png'/>
                 </figure>
                 <ul>
-                    <BrowserRouter>
                     <li>
                         <Link to="/">Inicio</Link>
                     </li>
@@ -21,9 +20,9 @@ const Header = () => {
                     <li>
                         <Link to="/">Proyectos</Link>
                     </li>
-                    </BrowserRouter>
                 </ul>
             </nav>
+            <Outlet />
         </header>
     );
 };
