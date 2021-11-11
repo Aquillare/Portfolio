@@ -16,6 +16,7 @@ const MainTarjet = () => {
         github:{
             src:githubIcon,
             name:"Github",
+            url:"https://github.com/Aquillare",
         },
         linkedin:{
             src:linkedinIcon,

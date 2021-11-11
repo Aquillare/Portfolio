@@ -1,5 +1,6 @@
 import React from "react";
 import reactImg from '../../assets/icons/react-icon.png';
+import '../styles/Footer.css';
 
 const Footer = () => {
 
