@@ -40,3 +40,27 @@ main{
     align-self: center;
     
 }
+
+@media(max-width:880px){
+
+    .container{
+        height: auto;
+        margin: 30px 0 30px 0;
+    }
+
+    .container_title{
+        margin: 30px 0px 30px 0;
+    }
+
+    .container_buttons{
+        margin: 30px 0px 30px 0;
+    }
+}
+
+@media(max-width:600px){
+
+    .container_buttons{
+        width: 40%;
+    }
+
+}

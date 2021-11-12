@@ -60,3 +60,74 @@
     object-fit: fill;
 }
 
+
+
+
+
+@media(max-width:600px){
+    .tarjetProfile_title{
+        font-size: 30px;
+        
+    }
+    
+    .tarjetProfile_subtitle2{
+        font-size: 22px;
+    }
+    
+    
+    
+    .container_tarjetProfile{
+        width: 280px;
+        height: 260px;; 
+        margin: 0 0;
+        /* position: absolute; */
+    }
+ 
+    .tarjetProfile_img{
+        width: 164px;
+        height: 164px;
+    }
+
+}
+
+
+
+@media(max-width:340px){
+    .container_tarjetProfile{
+        width: 200px;
+        height: 300px;; 
+        margin: 0 0;
+        /* position: absolute; */
+    }
+
+    .tarjetProfile{
+        flex-direction: column-reverse;
+    }
+
+    .tarjetProfile_img{
+        width: 100px;
+        height: 100px;
+        top: -10px;
+        right: 0;
+    }
+
+    .tarjetProfile_text{
+       width: 100%;
+        
+    }
+    
+    .tarjetProfile_subtitle2{
+        font-size: 22px;
+    }
+
+
+    .skillsTarjet_container{
+        height: auto;
+        width: 260px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+}
+
+

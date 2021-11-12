@@ -1,0 +1,48 @@
+.skillsTarjet_figure{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(45deg, #0d47a1, rgba(000, 000, 000, 0.0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+    flex-direction: column;
+    color:#E3F2FD;
+
+}
+.skillsTarjet_figure img{
+    height: 58px;
+    width: 58px;
+    
+}
+
+.skillsTarjet_figure img:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+.skillsTarjet_figure:hover{
+    filter: brightness(1.2);
+}
+
+@media(max-width:450px){
+
+    .skillsTarjet_figure{
+        height: 90px;
+        width: 90px;
+        margin: 10px 0px 10px 0px;
+        flex-direction: column;
+        color:#E3F2FD;
+        align-self: center;
+        justify-self: center;
+    
+    }
+    .skillsTarjet_figure img{
+        height: 44px;
+        width: 44px;
+        
+    }
+    .skillsTarjet_figure span{
+        font-size: 14px;
+    }
+
+}

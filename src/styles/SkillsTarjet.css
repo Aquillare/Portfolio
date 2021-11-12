@@ -1,0 +1,46 @@
+.skillsTarjet_container{
+    height: 254px;
+    width: auto;
+    background: linear-gradient(160deg,#2196f3,#0d47a1);
+    border-radius: 20% 20% 20% 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* flex-wrap: wrap; */
+    border-top: 8px solid rgba(999, 999, 999, 0.2);
+    border-right: 10px solid rgba(000, 000, 000, 0.4);
+    border-left: 10px solid rgba(000, 000, 000, 0.4);
+}
+
+@media(max-width:880px){
+
+    .skillsTarjet_container{
+        height: auto;
+        width: 370px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media(max-width:450px){
+    .skillsTarjet_container{
+        height: auto;
+        width: 300px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+@media(max-width:340px){
+    
+    .skillsTarjet_container{
+        height: auto;
+        width: 260px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+}

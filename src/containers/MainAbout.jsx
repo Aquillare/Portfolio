@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillsTarjet from '../containers/SkillsTarjet';
 import TextAbout from '../components/TextAbout';
+import '../styles/MainAbout.css';
 
 
 
@@ -10,18 +11,18 @@ const MainAbout = () => {
 
 
     return(
-        <main class="main">
+        <main className="main">
 
-            <div class="container2">
+            <div className="container2">
 
-                <p class="container_title">Acerca de mi</p>
+                <p className="container_title">Acerca de mi</p>
                 <TextAbout/>    
 
             </div>
 
-            <div class="containerSkills">
+            <div className="containerSkills">
             
-                <h2 class="container_title">Habilidades</h2>
+                <h2 className="container_title">Habilidades</h2>
                 
                 <SkillsTarjet/>
 

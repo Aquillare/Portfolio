@@ -100,7 +100,7 @@ body::-webkit-scrollbar-thumb{
     
     
     
-    .tarjetProfile_container{
+    .container_tarjetProfile{
         width: 280px;
         height: 260px;; 
         margin: 0 0;
@@ -152,7 +152,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 @media(max-width:340px){
-    .tarjetProfile_container{
+    .container_tarjetProfile{
         width: 200px;
         height: 300px;; 
         margin: 0 0;

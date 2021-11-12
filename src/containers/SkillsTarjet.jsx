@@ -1,4 +1,5 @@
-import React from "react"    
+import React from "react"
+import '../styles/SkillsTarjet.css';    
 import SkillFigure from "../components/SkillFigure"
 import gitIcon from '../../assets/icons/git-icon.png';
 import htmlIcon from '../../assets/icons/html5-icon.png';
@@ -47,7 +48,7 @@ const SkillsTarjet = () => {
     }
 
     return(
-        <div class="skillsTarjet_container">
+        <div className="skillsTarjet_container">
 
             <SkillFigure elements={SkillsElements.webpack}/>
             <SkillFigure elements={SkillsElements.javascript}/>
