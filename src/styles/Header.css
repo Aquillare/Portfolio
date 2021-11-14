@@ -1,19 +1,19 @@
-nav{
+.desktopMenu{
     width: 100%;
-    height: 7.4vh;
+    height: 68px;
     display: flex;
     justify-content: center;
     background: linear-gradient(#1976D2,#64b5f6);
     box-shadow: 1px 1px 10px black;
 }
-nav ul{
+.desktopMenu_ul{
     width: 70%;
     display: flex;
     justify-content: flex-end;
     list-style: none;
     align-items: center;
 }
-nav ul li{
+.desktopMenu_li{
     transition: 500ms;
     transition-property: initial;
     color:#E3F2FD;
@@ -24,12 +24,12 @@ nav ul li{
     
 }
 
-nav ul li a{
+.desktopMenu_li a{
     text-decoration: none;
     color:#E3F2FD;
 }
 
-nav ul li:hover{
+.desktopMenu_li:hover{
     border-bottom: 1px solid gray;
     box-shadow: 2px 2px 1px black;
     border-radius: 10px;
@@ -44,5 +44,29 @@ nav ul li:hover{
 .nav_menu{
     display:none;
     height: 40px;
-    width: 40px;    
+    width: 40px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+@media(max-width:760px){
+    .desktopMenu_li{
+        display: none;
+    }
+    .desktopMenu_ul{
+        width: 1%;
+        justify-content: flex-end;
+    }
+    .nav_menu{
+        display: flex;
+        justify-content: flex-end;
+    
+        margin-right: 10px;
+        width: 100%; 
+    }
+    .nav_menu img:active{
+        height: 38px;
+        width: 38px;
+    }
 }

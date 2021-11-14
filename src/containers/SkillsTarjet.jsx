@@ -7,7 +7,7 @@ import javascriptIcon from '../../assets/icons/javascript-icon.png';
 import webpackIcon from '../../assets/icons/webpack-icon.png';
 import npmIcon from '../../assets/icons/npm-icon.png';
 import reactIcon from '../../assets/icons/react-icon.png';
-import vscodeIcon from '../../assets/icons/webpack-icon.png';
+import vscodeIcon from '../../assets/icons/vscode-icon.png';
 import cssIcon from '../../assets/icons/css3-icon.png';
 
 const SkillsTarjet = () => {
