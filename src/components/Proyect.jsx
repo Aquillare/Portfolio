@@ -1,18 +1,24 @@
 import React from 'react';
 import '../styles/Proyect.css';
-import  proyect1 from '../../assets/images/PlatziVideoProyect.jpeg';
 
-const Proyect = () => {
+
+const Proyect = (item) => {
+
+    const proyect = item.elements;
 
 
     return(
         <div className="proyect">
 
-            <img className="proyectImg" src={proyect1} alt=""/>
+            
+
+            <img className="proyectImg" src={proyect.cover} alt=""/>
 
             <div className="proyectDescription">
 
-                <p>Este proyecto hadhada hdhad hahdha dhgahg dhaghd <br/>ghagdh gahd ghagdhegfg hkvbvkv hdvhdb vhdbvh dbvjh bhd</p>    
+                <p className="proyectDescription_title">{proyect.title}</p>
+
+                <p>{proyect.description}</p>    
 
                 <div className="buttonsContainer">
                     <button type="button">ver</button>

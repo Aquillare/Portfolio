@@ -26,16 +26,20 @@
     top: 0px;
     background-color: rgba(000, 000, 000, 0.8);
     display: none;
-
-    
-    
 }
+
+
 
 .proyectDescription p {
     display: flex;
     width: 80%;
     height: auto;
     color: white;
+}
+
+.proyectDescription_title{
+    align-items: center;
+    justify-content: center;
 }
 
 .proyect:hover .proyectDescription{
