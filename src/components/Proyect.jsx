@@ -16,13 +16,17 @@ const Proyect = (item) => {
 
             <div className="proyectDescription">
 
-                <p className="proyectDescription_title">{proyect.title}</p>
+                <div className="gosth">
 
-                <p>{proyect.description}</p>    
+                    <p className="proyectDescription_title">{proyect.title}</p>
 
-                <div className="buttonsContainer">
-                    <button type="button">ver</button>
-                    <button type="button">ver en Github</button>
+                    <p>{proyect.description}</p>    
+
+                    <div className="buttonsContainer">
+                        <button type="button">ver</button>
+                        <button type="button">ver en Github</button>
+                    </div>
+                    
                 </div>
 
                 

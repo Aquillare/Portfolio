@@ -1,6 +1,6 @@
 .menuContainer_mobile{
     width: 70%;
-    background-color: rgba(000, 000, 000, 0.7);
+    background-color: rgba(000, 000, 000, 0.9);
     filter: blur(0.8);
     color: azure;
     height: 430px;
@@ -11,6 +11,7 @@
     font-size: 20px;
     display: none;
     z-index: 2;
+    
 }
 
 .mobileUl {
@@ -36,26 +37,12 @@
     height: 143px;
     justify-content: center;
     align-items: center;
+   
 }
 .mobileLi:hover{
     filter: brightness(1.5px);
 }
 
-.mobileUl :nth-child(1){
-/*     
-    padding-bottom: 27px;
-    padding-top: 27px; */
-    
-}
-
-
-.mobileUl :nth-child(2){
-    /* padding-bottom: 27px;
-    padding-top: 27px; */
-}
-.mobileUl :nth-child(3){
-    /* padding-top: 27px; */
-}
 
 .mobileLi{
     display: flex;
