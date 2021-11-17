@@ -5,14 +5,19 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Layout from '../containers/Layout';
 import Proyects from '../pages/Proyects.jsx';
+import AppContext from '../context/AppContext';
+import useInitialState from '../hooks/UseInitialState';
 
 
 
 const App = () =>{
 
+    const initialState = useInitialState();
+
     return(
 
         <div>               
+                <AppContext.Provider value={initialState}>
                     <Routes>
                         
                         <Route path="/" element={<Layout/>}>
@@ -23,6 +28,10 @@ const App = () =>{
                         </Route>    
                         
                     </Routes>
+                </AppContext.Provider>
+                    
+                    
+                 
        </div>
         
            

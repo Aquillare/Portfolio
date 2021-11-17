@@ -1,19 +1,29 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 import MenuMobile from './MenuMobile';
 import { useState } from 'react';
 import iconMenu from '../../assets/icons/icon-menu-portfolio.png';
+import AppContext from '../context/AppContext';
 
 const Header = () => {
 
-    const [toggle,setToggle] = useState(false);
+    const {mobileMenuShow,mobileMenuHidden,state} = useContext(AppContext);
+
+    console.log(state);
+
 
     const handleToggle = () => {
-        setToggle(!toggle);
-        // setTimeout(() => setToggle(toggle), 3000)
+        !state.mobileMenu 
+            ?
+        mobileMenuShow()
+            :
+        mobileMenuHidden();
     };
 
+    
+
+  
     return(
         <header>
             <nav className="desktopMenu">
@@ -21,7 +31,7 @@ const Header = () => {
                     <img src={iconMenu}/>
                 </figure>
 
-                {toggle && <MenuMobile/>}
+                {state.mobileMenu && <MenuMobile/>}
 
                 <ul className="desktopMenu_ul">
                     <li className="desktopMenu_li">
