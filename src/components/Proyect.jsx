@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/Proyect.css';
 import TecnologiesItem from './TecnologiesItem';
-import githubIcon from '../../assets/icons/github-icon.png';
-import arrow from '../../assets/icons/arrow.png'
 
 
 const Proyect = (item) => {
