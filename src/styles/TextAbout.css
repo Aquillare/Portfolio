@@ -2,6 +2,7 @@
     align-self: center;
     justify-self: center;
     display: flex;
+    flex-direction: column;
     justify-content: left;
     align-items: center;
     color:#E3F2FD;
@@ -17,4 +18,8 @@
 
 .textContainer p{
     font-size: 22px;
+}
+
+.textContainer p:nth-child(2){
+    margin-top: 30px;
 }

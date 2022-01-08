@@ -2,34 +2,40 @@ import React from 'react';
 import Proyect from '../components/Proyect';
 import '../styles/MainProyects.css';
 import Button from '../components/Button';
-import  platziVideoCover from '../../assets/images/PlatziVideoProyect.jpeg';
+import thisTrailerCover from '../../assets/images/this-trailer-app-.png';
+import yardSaleCover from '../../assets/images/yard-sale-cover.png'
 
 const MainProyects = () => {
 
     const proyects = [
         {
             id:1,
-            title:"Platzi Video",
-            description:"Descripcion del proyecto",
-            tecnologies:"Tecnologias usadas",
-            cover:platziVideoCover,
+            title:"This trailer",
+            description:"Sitio web para la busqueda y visualizacion de informacion y trailers de peliculas.",
+            tecnologies:["Javascript","HTML", 'SASS', "React", "Redux"],
+            cover:thisTrailerCover,
+            urlView:'https://this-trailer.netlify.app/',
+            urlGit:'https://github.com/Aquillare/This-Trailer'
         },
 
         {
             id:2,
-            title:"Platzi Video",
-            description:"Descripcion del proyecto",
-            tecnologies:"Tecnologias usadas",
-            cover:platziVideoCover,
+            title:"Yard Sale",
+            description:"Tienda Online con seleccion de categorias y carrito de compras",
+            tecnologies:["Javascript","HTML", 'SASS', "React"],
+            cover:yardSaleCover,
+            urlView:'https://yarddsale.netlify.app/',
+            urlGit:'https://github.com/Aquillare/React-Shop'
         },
 
-        {
-            id:3,
-            title:"Platzi Video",
-            description:"Descripcion del proyecto",
-            tecnologies:"Tecnologias usadas",
-            cover:platziVideoCover,
-        }
+        // {
+        //     id:3,
+        //     title:"Platzi Video",
+        //     description:"Descripcion del proyecto",
+        //     tecnologies:"Tecnologias usadas",
+        //     cover:thisTrailerCover,
+        //     urlView:'https://this-trailer.netlify.app/'
+        // }
     ]
 
 

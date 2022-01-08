@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+    color: black;
+}
 .container_button{
     width: 56px;
     height: 48px;
@@ -9,7 +13,6 @@
     border: 2px solid #0d47a1;
     background: #E3F2FD;
     font-size: 12px;
-
 }
 .container_button:hover{
     filter: brightness(1.3);

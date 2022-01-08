@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/TarjetProfile.css';
-import profilePhoto from '../../assets/icons/fotoPerfilPrueba.jpg';
+import profilePhoto from '../../assets/images/foto_portfolio_sinFondo.png';
 
 const TarjetProfile = () => {
 

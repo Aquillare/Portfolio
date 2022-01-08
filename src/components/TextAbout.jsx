@@ -11,6 +11,10 @@ const TextAbout = () => {
                 buscando soluciones simples a problemas complejos podemos
                 avanzar en la construcción del éxito.
             </p>
+            <p>       
+                Actualmente me encuentro cursando una ruta de estudios de
+                desarrollo Backend en la plataforma de educacion online Platzi.
+            </p>
         </div>
 
     );

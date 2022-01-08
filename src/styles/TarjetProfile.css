@@ -50,14 +50,14 @@
 }
 
 .tarjetProfile_img{
-    background: white;
-    width: 214px;
-    height: 214px;
+    background: transparent;
+    width: 274px;
+    height: 274px;
     position: relative;
     top:-40px;
     right:-14px;
     border-radius:100%;
-    object-fit: fill;
+    
 }
 
 
@@ -86,6 +86,7 @@
     .tarjetProfile_img{
         width: 164px;
         height: 164px;
+        right: -8px;
     }
 
 }
@@ -105,8 +106,8 @@
     }
 
     .tarjetProfile_img{
-        width: 100px;
-        height: 100px;
+        width: 144px;
+        height: 142px;
         top: -10px;
         right: 0;
     }

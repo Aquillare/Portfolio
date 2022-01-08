@@ -2,7 +2,6 @@ import React,{useContext} from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import '../styles/Header.css';
 import MenuMobile from './MenuMobile';
-import { useState } from 'react';
 import iconMenu from '../../assets/icons/icon-menu-portfolio.png';
 import AppContext from '../context/AppContext';
 
