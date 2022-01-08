@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/tecnologiesItem.css';
+import '../styles/TecnologiesItem.css';
 const TecnologiesItem = (props) => {
     const item = props.value
     return(
