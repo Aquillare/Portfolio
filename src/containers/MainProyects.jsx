@@ -1,7 +1,6 @@
 import React from 'react';
 import Proyect from '../components/Proyect';
 import '../styles/MainProyects.css';
-import Button from '../components/Button';
 import thisTrailerCover from '../../assets/images/this-trailer-app-.png';
 import yardSaleCover from '../../assets/images/yard-sale-cover.png'
 
@@ -28,14 +27,7 @@ const MainProyects = () => {
             urlGit:'https://github.com/Aquillare/React-Shop'
         },
 
-        // {
-        //     id:3,
-        //     title:"Platzi Video",
-        //     description:"Descripcion del proyecto",
-        //     tecnologies:"Tecnologias usadas",
-        //     cover:thisTrailerCover,
-        //     urlView:'https://this-trailer.netlify.app/'
-        // }
+
     ]
 
 
@@ -53,9 +45,6 @@ const MainProyects = () => {
                         proyects.map( item => <Proyect elements={item} key={`proyect-${item.id}`}/>)
                     }
 
-                    {/* <Proyect/>
-
-                    <Proyect/> */}
 
                 </div>
 
