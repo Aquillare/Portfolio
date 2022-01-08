@@ -15,7 +15,6 @@ import githubIcon from '../../assets/icons/github-icon.png';
 import linkedinIcon from '../../assets/icons/linkedin-icon.png';
 
 //assets de MainProyects
-import  platziVideoCover from '../../assets/images/PlatziVideoProyect.jpeg';
 
 
 const initialState = {
