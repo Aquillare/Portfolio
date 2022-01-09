@@ -12,8 +12,8 @@ const TextAbout = () => {
                 avanzar en la construcción del éxito.
             </p>
             <p>       
-                Actualmente me encuentro cursando una ruta de estudios de
-                desarrollo Backend en la plataforma de educacion online Platzi.
+                Actualmente me encuentro cursando la ruta de desarrollo Full Stack
+                en Javascript en la plataforma de educación online Platzi (Stack PERRN).
             </p>
         </div>
 
