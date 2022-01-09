@@ -21,6 +21,7 @@ const MainTarjet = () => {
         linkedin:{
             src:linkedinIcon,
             name:"Linkedin",
+            url:"https://www.linkedin.com/in/mig55zt"
         },    
     };
 
