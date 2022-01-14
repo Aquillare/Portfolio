@@ -2,7 +2,8 @@ import React from 'react';
 import Proyect from '../components/Proyect';
 import '../styles/MainProyects.css';
 import thisTrailerCover from '../../assets/images/this-trailer-app-.png';
-import yardSaleCover from '../../assets/images/yard-sale-cover.png'
+import yardSaleCover from '../../assets/images/yard-sale-cover.png';
+import todoAppCover from '../../assets/images/TodoProyect.png';
 
 const MainProyects = () => {
 
@@ -26,6 +27,17 @@ const MainProyects = () => {
             urlView:'https://yarddsale.netlify.app/',
             urlGit:'https://github.com/Aquillare/React-Shop'
         },
+
+        {
+            id:3,
+            title:'Todo App',
+            description:"Sitio web donde podras realizar listas de tareas, filtrar tares y marcar las tareas ya realizadas",
+            tecnologies:["Javascript","HTML","CSS","React"],
+            cover:todoAppCover,
+            urlView:'https://todo-ap-netllify.app',
+            urlGit:'https://github.com/Aquillare/Todo-App',
+
+        }
 
 
     ]
