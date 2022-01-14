@@ -31,7 +31,7 @@ const MainProyects = () => {
         {
             id:3,
             title:'Todo App',
-            description:"Sitio web donde podras realizar listas de tareas, filtrar tares y marcar las tareas ya realizadas",
+            description:"Sitio web donde podrás realizar listas de tareas, filtrarlas y marcar las tareas ya realizadas",
             tecnologies:["Javascript","HTML","CSS","React"],
             cover:todoAppCover,
             urlView:'https://todo-ap-netllify.app',
