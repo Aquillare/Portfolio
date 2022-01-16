@@ -34,7 +34,7 @@ const MainProyects = () => {
             description:"Sitio web donde podrás realizar listas de tareas, filtrarlas y marcar las tareas ya realizadas",
             tecnologies:["Javascript","HTML","CSS","React"],
             cover:todoAppCover,
-            urlView:'https://todo-ap-netllify.app',
+            urlView:'https://todo-ap.netlify.app',
             urlGit:'https://github.com/Aquillare/Todo-App',
 
         }
