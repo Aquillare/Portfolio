@@ -3,10 +3,3 @@
     height: auto;
 }
 
-@media(max-width:600px){
-
-    .home{
-        height: 100vh;
-    }
-
-}
