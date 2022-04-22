@@ -252,13 +252,7 @@ body::-webkit-scrollbar-thumb{
     height: auto;
 }
 
-@media(max-width:600px){
 
-    .home{
-        height: 100vh;
-    }
-
-}
 .skillsTarjet_container{
     height: 274px;
     width: auto;
@@ -635,7 +629,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 3em;
     background: #00171F;
     box-shadow: -0.5px -0.5px 10px black;
     border-top: 2.8px solid #00a6e8eb;
@@ -644,6 +638,7 @@ a{
 .footer_container{
     display: flex;
     width: 90%;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -829,6 +824,11 @@ a{
         width:90%;
         height:15em;
     }
+    .proyectDescription_content{
+        height: 4em;
+        border-bottom: 1px solid wheat;
+        overflow-y: scroll;
+    }
 }
 
 
@@ -908,7 +908,7 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 40px;
-
+    margin: 0.8em 0 0.8em 0;
 }
 
 .proyects_list{
@@ -918,6 +918,7 @@ a{
     align-items: center;
     width: 80%;
     height: 100%;
+
 }
 
 .proyects_list_li{
