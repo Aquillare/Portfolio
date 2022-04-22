@@ -170,6 +170,11 @@
         width:90%;
         height:15em;
     }
+    .proyectDescription_content{
+        height: 4em;
+        border-bottom: 1px solid wheat;
+        overflow-y: scroll;
+    }
 }
 
 
