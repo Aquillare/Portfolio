@@ -222,7 +222,9 @@ body::-webkit-scrollbar-thumb{
 
 
 @media(max-width:880px){
-
+    .main_tarjet{
+        height: 100vh;
+    }
     .container{
         margin: 30px 0 30px 0;
     }
@@ -253,7 +255,7 @@ body::-webkit-scrollbar-thumb{
 @media(max-width:600px){
 
     .home{
-        height: 92.5vh;
+        height: 100vh;
     }
 
 }
@@ -849,7 +851,7 @@ a{
 .main_proyects{
     margin-top:30px;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
     display: flex;
     justify-content: space-around;
@@ -954,7 +956,6 @@ a{
 .proyects_button:active{
     transform: scale3d(0.9,0.9,1);
 }
-
 
 
 
