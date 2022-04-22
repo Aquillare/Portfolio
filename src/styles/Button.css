@@ -1,18 +1,22 @@
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 .container_button{
-    width: 56px;
+    width: 48px;
     height: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 10%;
-    border: 2px solid #0d47a1;
-    background: #E3F2FD;
+    border: none;
+    background: transparent;
     font-size: 12px;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
 }
 .container_button:hover{
     filter: brightness(1.3);

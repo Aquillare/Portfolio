@@ -9,6 +9,9 @@ import npmIcon from '../../assets/icons/npm-icon.png';
 import reactIcon from '../../assets/icons/react-icon.png';
 import vscodeIcon from '../../assets/icons/vscode-icon.png';
 import cssIcon from '../../assets/icons/css3-icon.png';
+import nextIcon from '../../assets/icons/next.svg';
+import nodeIcon from '../../assets/icons/nodo-js.png';
+import postgreIcon from '../../assets/icons/postgre.png';
 
 const SkillsTarjet = () => {
 
@@ -29,21 +32,29 @@ const SkillsTarjet = () => {
             name:'Webpack',
             src:webpackIcon,
         },
-        npm:{
-            name:'NPM',
-            src:npmIcon,
+        node:{
+            name:'Node js',
+            src:nodeIcon,
         },
         react:{
             name:'React',
             src:reactIcon,
         },
-        vsCode:{
-            name:'VS Code',
-            src:vscodeIcon,
+        next:{
+            name:'Next js',
+            src:nextIcon,
         },
         css:{
             name:'CSS3',
             src:cssIcon,
+        },
+        postgreSql:{
+            name:'PostgreSQL',
+            src:postgreIcon,
+        },
+        npm:{
+            name:'NPM',
+            src:npmIcon,
         },
     }
 
@@ -55,9 +66,11 @@ const SkillsTarjet = () => {
             <SkillFigure elements={SkillsElements.html}/>
             <SkillFigure elements={SkillsElements.css}/>
             <SkillFigure elements={SkillsElements.react}/>
-            <SkillFigure elements={SkillsElements.npm}/>
+            <SkillFigure elements={SkillsElements.node}/>
             <SkillFigure elements={SkillsElements.git}/>
-            <SkillFigure elements={SkillsElements.vsCode}/>
+            <SkillFigure elements={SkillsElements.next}/>
+            <SkillFigure elements={SkillsElements.postgreSql}/>
+            <SkillFigure elements={SkillsElements.npm}/>
                 
         </div>
     );

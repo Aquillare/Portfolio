@@ -1,4 +1,12 @@
 .home{
     display: flex;
-    height: 88vh;
+    height: auto;
+}
+
+@media(max-width:600px){
+
+    .home{
+        height: 92.5vh;
+    }
+
 }

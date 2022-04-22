@@ -4,22 +4,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     /* font-family: 'Fjalla One', sans-serif; */
-    font-family: 'Archivo Narrow', sans-serif;
+    /*font-family: 'Archivo Narrow', sans-serif; */
+    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     /* font-family: 'Permanent Marker', cursive; */
     scrollbar-width: 50px;
 }
 
-body{
-  
-    background-color:#90CAF9 ;
-    height: 100vh;
-    
-}
+
 
 body::-webkit-scrollbar{
     width: 10px;
@@ -30,5 +32,7 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background: #0d47a1;
 }
+
+
 
 

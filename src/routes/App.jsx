@@ -10,6 +10,7 @@ import useInitialState from '../hooks/UseInitialState';
 
 
 
+
 const App = () =>{
 
     const initialState = useInitialState();
@@ -25,14 +26,13 @@ const App = () =>{
                             <Route index element={<Home/>}/>
                             <Route path="about" element={<About/>}/>
                             <Route path="proyects" element={<Proyects/>}/>
-
+                            
                         </Route>    
                         
                     </Routes>
                 </AppContext.Provider>
                     
                     
-                 
        </div>
         
            
