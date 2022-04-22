@@ -59,7 +59,7 @@
     justify-content: space-around;
     align-items: center;
     height: 40px;
-
+    margin: 0.8em 0 0.8em 0;
 }
 
 .proyects_list{
@@ -69,6 +69,7 @@
     align-items: center;
     width: 80%;
     height: 100%;
+
 }
 
 .proyects_list_li{
