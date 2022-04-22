@@ -25,7 +25,7 @@ const MainProyects = () => {
             description:"Tienda Online con seleccion de categorias, carrito de compras y login de usuarios, implementamos llamadas a un api rest para la obtencion de productos, categorias, creacion de nuevos usuarios y login, posee responsive desing.",
             tecnologies:["Javascript","HTML", 'SASS', "React","Next"],
             cover:yardSaleCover,
-            urlView:'https://next-js-shop-b1h64hdwy-aquillare.vercel.app',
+            urlView:'https://next-js-shop-eight.vercel.app/',
             urlGit:'https://github.com/Aquillare/NextJs-Shop'
         },
 
