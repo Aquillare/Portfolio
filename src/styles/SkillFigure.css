@@ -1,14 +1,16 @@
 .skillsTarjet_figure{
     height: 100px;
     width: 100px;
-    background: linear-gradient(45deg, #0d47a1, rgba(000, 000, 000, 0.0));
-    border-radius: 50%;
+    background: linear-gradient(45deg, #00A8E8, rgba(000, 000, 000, 0.0));
+    border-radius: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 40px;
     flex-direction: column;
     color:#E3F2FD;
+    border: 2px solid #00A8E8;
+    border-right: 2px solid rgba(000, 000, 000, 0.0);
 
 }
 .skillsTarjet_figure img{

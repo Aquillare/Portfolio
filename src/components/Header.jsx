@@ -47,7 +47,7 @@ const Header = () => {
 
             
 
-            <Outlet />
+           {/*<Outlet /> */} 
         </header>
     );
 };

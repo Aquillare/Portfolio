@@ -1,29 +1,31 @@
 .menuContainer_mobile{
-    width: 70%;
+    width: 100%;
     background-color: rgba(000, 000, 000, 0.9);
-    filter: blur(0.8);
+    filter: blur(0.9);
     color: azure;
-    height: 430px;
+    height: 90vh;
     position: absolute;
     right: 0px;
-    top:68px;
-    transition: 1000ms;
+    top:54px;
     font-size: 20px;
     display: none;
     z-index: 2;
-    
+    animation: slide-in;
+    animation-duration: 1s;
+    height: 92vh;
 }
 
 .mobileUl {
     display: flex;
     width: 100%;
-    height: 70vh;
+    height: auto;
     flex-direction: column;
     align-items: center;   
 }
+
 .mobileLi{
     width: 100%;
-    height: 143px;
+    height: auto;
     display: flex;
     
 }
@@ -34,10 +36,10 @@
     text-decoration: none;
     border-bottom: none;
     width: 100%;
-    height: 143px;
+    height: 30.5vh;
     justify-content: center;
     align-items: center;
-   
+    border-bottom: 1px solid wheat;
 }
 .mobileLi:hover{
     filter: brightness(1.5px);
@@ -52,6 +54,15 @@
 
     width: 100%;
   
+}
+
+@keyframes slide-in {
+    from{
+        margin-top: 100vh;
+    }
+    to{
+        margin-top: 0vh;
+    }
 }
 
 

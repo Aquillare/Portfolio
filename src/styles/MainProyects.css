@@ -1,10 +1,9 @@
 
-main{
+.main_proyects{
     margin-top:30px;
     width: 100%;
     height: auto;
-    background-color:#90CAF9 ;
-    margin-bottom: 30px;
+    background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,6 +13,7 @@ main{
 
 .container3{
     margin-top: 40px;
+    margin-bottom: 20px;
     width: 100%;
     height: auto;
     display: flex;
@@ -30,8 +30,8 @@ main{
    width: 66%;
    color: #E3F2FD;
    font-size: 22px;
-   border-bottom: 1px solid #0d47a1;
-   background: linear-gradient(45deg, #0d47a1, rgba(000, 000, 000, 0.0));
+   border-bottom: 1px solid #00A8E8;
+   background: linear-gradient(45deg, #003459, rgba(000, 000, 000, 0.0));
    border-radius: 20% 30% 0 0;
 }
 
@@ -41,38 +41,73 @@ main{
     /* outline: 1px solid blue; */
     border-radius: 4px;
     margin-top: 40px;
-    width: 60%;
+    width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
-    background: linear-gradient(180deg, #0d48a1b4, rgba(000, 000, 000, 0.0));
+    /*background: linear-gradient(180deg, #0d48a1b4, rgba(000, 000, 000, 0.0));*/
     align-self: center;
     justify-self: center;
     align-items: center;
 }
 
+.proyects_buttonsContainer{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
 
-@media(max-width:1100px){
-    .container3{
-        height: auto;
-    }
 }
 
-@media(max-width:450px){
-    .container_title{
-    
-        width: 96%;
-       
-     }
-     
-     
-     
-     .proyectsContainer{
-         /* outline: 1px solid blue; */
-
-         width: 90%;
-   
-     }
+.proyects_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100%;
 }
+
+.proyects_list_li{
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    background: linear-gradient(125deg, rgba(205, 213, 215, 0.613) ,#00A8E8);
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.proyects_list_li_id{
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    background: rgba(000, 000, 000, 0.8);
+    transition: all 500ms;
+    cursor: pointer;
+    border-bottom: 1px solid #00A8E8;
+    border-left: 1 px solid #E3F2FD;
+    margin-top: 0.2em;
+}
+
+.proyects_button{
+    width: 1em;
+    height: 2em;
+    background: linear-gradient(125deg, rgba(205, 213, 215, 0.613) ,#00A8E8);
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: rgb(16, 14, 14);
+
+}
+.proyects_button:active{
+    transform: scale3d(0.9,0.9,1);
+}
+
+
+
+

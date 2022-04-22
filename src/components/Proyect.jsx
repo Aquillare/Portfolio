@@ -3,17 +3,19 @@ import '../styles/Proyect.css';
 import TecnologiesItem from './TecnologiesItem';
 
 
-const Proyect = (item) => {
+const Proyect = ({elements, key}) => {
 
-    const proyect = item.elements;
+    const proyect = elements;
+    let id = key;
+
+    console.log(id);
 
     return(
         <div className="proyect">
 
             
 
-            <img className="proyectImg" src={proyect.cover} alt=""/>
-
+            
             <div className="proyectDescription">
 
                 <div className="gosth">
@@ -44,6 +46,7 @@ const Proyect = (item) => {
                 
             </div>
 
+            <img id={key} className="proyectImg" src={proyect.cover} alt="proyect-image"/>
             
         </div>   
     );

@@ -1,10 +1,9 @@
 
-main{
+.main_about{
     margin-top:30px;
     width: 100%;
     height: auto;
-    background-color:#90CAF9 ;
-    margin-bottom: 30px;
+    background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -11,7 +11,7 @@ const MainAbout = () => {
 
 
     return(
-        <main className="main">
+        <main className="main_about">
 
             <div className="container2">
 
