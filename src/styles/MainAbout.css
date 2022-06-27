@@ -1,6 +1,7 @@
 
 .main_about{
-    margin-top:30px;
+    margin-top:3em;
+    padding: 1em 0;
     width: 100%;
     height: auto;
     background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
@@ -10,6 +11,17 @@
     flex-direction: column;
     
 }
+
+.container_title{
+    display: flex;
+    align-self: center;
+    width: 66%;
+    color: #E3F2FD;
+    font-size: 2em;
+    border-bottom: 1px solid #00A8E8;
+    background: linear-gradient(45deg, #003459, rgba(000, 000, 000, 0.0));
+    border-radius: 20% 30% 0 0;
+ }
 
 .container2{
     width: 100%;
@@ -44,3 +56,12 @@
         margin: 30px 0 30px 0;
     }
 }
+
+@media(max-width:768px){
+    .container_title{
+        width: 80%;
+    }
+}
+
+
+

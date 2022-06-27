@@ -24,16 +24,6 @@
     align-items: center;
 }
 
-.container_title{
-   display: flex;
-   align-self: center;
-   width: 66%;
-   color: #E3F2FD;
-   font-size: 22px;
-   border-bottom: 1px solid #00A8E8;
-   background: linear-gradient(45deg, #003459, rgba(000, 000, 000, 0.0));
-   border-radius: 20% 30% 0 0;
-}
 
 
 

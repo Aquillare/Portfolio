@@ -15,7 +15,7 @@ const MainAbout = () => {
 
             <div className="container2">
 
-                <p className="container_title">Acerca de mi</p>
+                <h2 className="container_title">Acerca de mi</h2>
                 <TextAbout/>    
 
             </div>

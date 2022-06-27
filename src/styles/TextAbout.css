@@ -26,3 +26,15 @@
 .textContainer p:nth-child(2){
     margin-top: 30px;
 }
+
+@media(max-width:768px){
+    .textContainer{
+        width: 80%;
+    }
+}
+
+@media(max-width:576px){
+    .textContainer p {
+        font-size: 1.2em;
+    }
+}
