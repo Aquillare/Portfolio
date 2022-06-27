@@ -79,14 +79,15 @@ body::-webkit-scrollbar-thumb{
 
 .tarjetProfile_title{
     margin-left: 5px ;
-    font-size: 5em;
+    font-size: 6em;
 }
 .tarjetProfile_subtitlte{
-    font-size: 2em;
+    font-size: 3.5em;
+    margin: 0.5em 0;
 }
 
 .tarjetProfile_subtitle2{
-    font-size: 5em;
+    font-size: 5.5em;
     color:#00A8E8 ;
     font-weight: bold;
     text-shadow: 1px 0px 10px rgba(000, 000, 000, 0.4);
@@ -131,19 +132,23 @@ body::-webkit-scrollbar-thumb{
     .tarjetProfile{
         font-size: 6.5px;
     }
+    .tarjetProfile_title{
+        font-size: 7em;
+        margin-left: 0;
+    }
+    .tarjetProfile_subtitlte{
+        font-size: 4em;
+        margin: 0.5em 0;
+    }
+    .tarjetProfile_subtitle2{
+        font-size: 5.5em;
+    }
     .tarjetProfile_text{
         font-size: 7.5px;
       }
   }
   
-  @media(min-height:667px){
-    .tarjetProfile{
-        
-    }
-    .tarjetProfile_text{
-        font-size: 12px;
-    }
-}
+
 
 
   @media(max-width:482px){
@@ -162,9 +167,25 @@ body::-webkit-scrollbar-thumb{
         font-size: 4.9px;
 
     }
+    .tarjetProfile_title{
+        font-size: 7em;
+        margin-left: 0;
+    }
+    .tarjetProfile_subtitlte{
+        font-size: 4em;
+        margin: 0.5em 0;
+    }
+    .tarjetProfile_subtitle2{
+        font-size: 5.5em;
+    }
     .tarjetProfile_text{
         font-size: 5.7px;
-      }
+    }
+    .tarjetProfile_img{
+        width: 40em;
+        height: 40em;
+        right: 0;
+    }
     .skillsTarjet_container{
         height: auto;
         width: 260px;
