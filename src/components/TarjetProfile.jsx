@@ -27,7 +27,7 @@ const TarjetProfile = () => {
 
         <div className="tarjetProfile_text">
             <p className="tarjetProfile_title">Hola</p>
-            <p className="tarjetProfile_subtitlte">mi nombre es Miguel Aguilar y soy </p>
+            <p className="tarjetProfile_subtitlte">mi nombre es Miguel Aguilar</p>
             <p className="tarjetProfile_subtitle2">desarrollador Web Front-end</p>
         
             
