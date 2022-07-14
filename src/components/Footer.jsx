@@ -27,9 +27,7 @@ const Footer = () => {
             <div className="footer_container">
                 <p>Desarrollado por Miguel Aguilar</p>
                 <div className="container_buttons">
-                    <Button element={elementButton.github}/>
-                        
-                    <Button element={elementButton.linkedin}/>                    
+                    <Button element={elementButton.github}/>                 
                 </div>
                 <p>Con React Js <img src={reactImg}/></p>
             </div>
