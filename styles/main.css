@@ -781,6 +781,7 @@ a{
     height: auto;
     color: white;
     font-size: 20px;
+    line-height: 25px;
 }
 
 
@@ -875,8 +876,9 @@ a{
     }
 
     .proyectDescription{
-        width:90%;
+        width:100%;
         height:15em;
+        margin-bottom: 1em;
     }
     .proyectDescription_content{
         height: 4em;
@@ -1002,6 +1004,20 @@ a{
     transform: scale3d(0.9,0.9,1);
 }
 
+@media(max-width:426px){
 
+    .proyectsContainer{
+        margin-top: 0;
+    }
+    .proyects_buttonsContainer{
+        margin: 0 0 0.8em 0;
+    }
+}
+
+@media(max-height:740px){
+    .main_proyects{
+        height: auto;
+    }
+}
 
 
