@@ -73,6 +73,7 @@
     height: auto;
     color: white;
     font-size: 20px;
+    line-height: 25px;
 }
 
 
@@ -167,8 +168,9 @@
     }
 
     .proyectDescription{
-        width:90%;
+        width:100%;
         height:15em;
+        margin-bottom: 1em;
     }
     .proyectDescription_content{
         height: 4em;

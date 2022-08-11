@@ -20,7 +20,7 @@ const Proyect = ({elements, key}) => {
 
                 <div className="gosth">
 
-                    <p className="proyectDescription_title">{proyect.title}</p>
+                    <h3 className="proyectDescription_title">{proyect.title}</h3>
 
                     <p className='proyectDescription_content'>{proyect.description}</p>
 

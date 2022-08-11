@@ -12,7 +12,7 @@ const MainProyects = () => {
         {
             id:1,
             title:"This trailer",
-            description:"Sitio web para la busqueda y visualizacion de informacion y trailers de peliculas, en su desarrollo se implementaron peticiones a un api rest, posee responisve desing.",
+            description:"Sitio web para la busqueda y visualización de información y trailers de películas, en su desarrollo se implementaron peticiones a un API rest, posee diseño responsivo.",
             tecnologies:["Javascript","HTML", 'SASS', "React", "Redux"],
             cover:thisTrailerCover,
             urlView:'https://this-trailer.netlify.app/',
@@ -22,7 +22,7 @@ const MainProyects = () => {
         {
             id:2,
             title:"Yard Sale",
-            description:"Tienda Online con seleccion de categorias, carrito de compras y login de usuarios, implementamos llamadas a un api rest para la obtencion de productos, categorias, creacion de nuevos usuarios y login, posee responsive desing.",
+            description:"Tienda Online con selección de categorias, carrito de compras y log in de usuarios, implementamos llamadas a un API rest para la obtencón de productos, categorías, creación de nuevos usuarios y log in, posee diseño responsivo.",
             tecnologies:["Javascript","HTML", 'SASS', "React","Next"],
             cover:yardSaleCover,
             urlView:'https://next-js-shop-eight.vercel.app/',
@@ -69,7 +69,7 @@ const MainProyects = () => {
 
 
                 </div>
-                <section className='proyects_buttonsContainer'>
+                <div className='proyects_buttonsContainer'>
                     <button className='proyects_button' onClick={() => counterPrevious(proyects) } type='button'> {'<'}</button>
                     <ul className='proyects_list'> 
                         {proyects.map( proyect => 
@@ -81,7 +81,7 @@ const MainProyects = () => {
                         }
                     </ul>
                     <button className='proyects_button' onClick={() => counterNext(proyects) } type='button'> {'>'}</button>
-                </section>
+                </div>
                     
             </section>
     </main>
