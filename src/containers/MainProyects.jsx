@@ -12,8 +12,8 @@ const MainProyects = () => {
         {
             id:1,
             title:"This trailer",
-            description:"Sitio web para la busqueda y visualización de información y trailers de películas, en su desarrollo se implementaron peticiones a un API rest, posee diseño responsivo.",
-            tecnologies:["Javascript","HTML", 'SASS', "React", "Redux"],
+            description:"Website for the search and visualization of information and movie trailers, requests to other APIs were implemented in its development, it has a responsive design",
+            tecnologies:["JavaScript","HTML", 'SASS', "React", "Redux"],
             cover:thisTrailerCover,
             urlView:'https://this-trailer.netlify.app/',
             urlGit:'https://github.com/Aquillare/This-Trailer'
@@ -22,8 +22,8 @@ const MainProyects = () => {
         {
             id:2,
             title:"Yard Sale",
-            description:"Tienda Online con selección de categorias, carrito de compras y log in de usuarios, implementamos llamadas a un API rest para la obtencón de productos, categorías, creación de nuevos usuarios y log in, posee diseño responsivo.",
-            tecnologies:["Javascript","HTML", 'SASS', "React","Next"],
+            description:"Online store with selection of categories, shopping cart and user login, we implement calls to other APIs to obtain products and categories. We developed a backend Service for the creation of new users, login and protection of routes through JWT",
+            tecnologies:["JavaScript","HTML", 'SASS', "React","Next"],
             cover:yardSaleCover,
             urlView:'https://next-js-shop-eight.vercel.app/',
             urlGit:'https://github.com/Aquillare/NextJs-Shop'
@@ -32,8 +32,8 @@ const MainProyects = () => {
         {
             id:3,
             title:'Todo App',
-            description:"Sitio web donde podrás realizar listas de tareas, filtrarlas y marcar las tareas ya realizadas, se implementa el storage del navegador para almacenar el estado de la app.",
-            tecnologies:["Javascript","HTML","CSS","React"],
+            description:"Web App were you can make to do list, filter them and check done tasks, implements browser storage for storing the app state.",
+            tecnologies:["JavaScript","HTML","CSS","React"],
             cover:todoAppCover,
             urlView:'https://todo-ap.netlify.app',
             urlGit:'https://github.com/Aquillare/Todo-App',
