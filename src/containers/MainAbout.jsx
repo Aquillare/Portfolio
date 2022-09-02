@@ -15,14 +15,14 @@ const MainAbout = () => {
 
             <div className="container2">
 
-                <h2 className="container_title">Acerca de mi</h2>
+                <h2 className="container_title">About me</h2>
                 <TextAbout/>    
 
             </div>
 
             <div className="containerSkills">
             
-                <h2 className="container_title">Habilidades</h2>
+                <h2 className="container_title">Skills</h2>
                 
                 <SkillsTarjet/>
 
