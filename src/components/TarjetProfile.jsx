@@ -8,8 +8,9 @@ const TarjetProfile = () => {
         <div className="tarjetProfile">
 
         <div className="tarjetProfile_text">
-            <h2 className="tarjetProfile_subtitlte">Hola <br/>mi nombre es Miguel Aguilar</h2>
-            <p className="tarjetProfile_subtitle2">desarrollador Web Front-end</p>
+            <h2 className="tarjetProfile_subtitlte">Hello! <br/>Mi name is Miguel Aguilar</h2>
+            <p className="tarjetProfile_subtitle2">Web Developer</p>
+            <p className="tarjetProfile_subtitlte">Welcome to my portfolio </p>
         </div>
         
         <img className="tarjetProfile_img" /*src={profilePhoto}*/ src={'https://i.postimg.cc/MHKcRrWh/foto-portfolio-sin-Fondo.png'}/>
