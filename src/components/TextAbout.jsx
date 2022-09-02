@@ -7,13 +7,9 @@ const TextAbout = () => {
         
         <div className="textContainer">
             <p>       
-                Soy un programador con la capacidad de
-                emplear tecnologías como Javascript,
-                React, Node y Next en la creación de sitios
-                web, así como desarrollar e implementar
-                servicios REST para la comunicación entre
-                Frontend y Backend, efectuando manejo de
-                bases de datos relacionales.
+                I am a programmer with the ability to use technologies such as Javascript, React, Node and Next in
+                the creation of websites, as well as to develop and implement REST services for communication
+                between FrontEnd and BackEnd, handling relational databases
             </p>
         </div>
 
