@@ -25,11 +25,11 @@ const Footer = () => {
     return(
         <footer className="footer">
             <div className="footer_container">
-                <p>Desarrollado por Miguel Aguilar</p>
+                <p>Developed by Miguel Aguilar</p>
                 <div className="container_buttons">
                     <Button element={elementButton.github}/>                 
                 </div>
-                <p>Con React Js <img src={reactImg}/></p>
+                    <p>With React Js <img src={reactImg}/> and CSS</p>
             </div>
         </footer>
     );
