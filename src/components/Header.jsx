@@ -34,13 +34,13 @@ const Header = () => {
 
                 <ul className="desktopMenu_ul">
                     <li className="desktopMenu_li">
-                        <Link to="/">Inicio</Link>
+                        <Link to="/">Main</Link>
                     </li>
                     <li className="desktopMenu_li">
-                        <Link to="about">Acerca</Link>
+                        <Link to="about">About</Link>
                     </li>
                     <li className="desktopMenu_li">
-                        <Link to="proyects">Proyectos</Link>
+                        <Link to="proyects">Proyects</Link>
                     </li>
                 </ul>
             </nav>
