@@ -14,6 +14,7 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     /* font-family: 'Permanent Marker', cursive; */
     scrollbar-width: 50px;
+    letter-spacing:0.05em;
 }
 
 
@@ -84,6 +85,7 @@ body::-webkit-scrollbar-thumb{
 .tarjetProfile_subtitlte{
     font-size: 3.5em;
     margin: 0.5em 0;
+    line-height: 1.2em;
 }
 
 .tarjetProfile_subtitle2{
@@ -504,6 +506,7 @@ body::-webkit-scrollbar-thumb{
     margin: 0 20px 0 20px;
     cursor: pointer;
     padding-bottom: 0px;
+    font-size: 18px;
     
 }
 
@@ -512,6 +515,7 @@ body::-webkit-scrollbar-thumb{
     text-decoration: none;
     color:#E3F2FD;
     font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
 }
 
 .desktopMenu_li::after{
@@ -699,7 +703,7 @@ a{
 
 .footer_container p{
     color: #E3F2FD;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footer_container p img{
@@ -752,7 +756,7 @@ a{
 
 .proyectDescription{
     width: 30%;
-    height:420px;
+    max-height:420px;
     display: flex;
     flex-direction: column;
     top: 0px;
@@ -777,11 +781,23 @@ a{
 
 .proyectDescription_content {
     display: flex;
+    max-height:150px ;
     width: 80%;
     height: auto;
     color: white;
     font-size: 20px;
     line-height: 25px;
+    overflow-y: auto;
+
+}
+.proyectDescription_content::-webkit-scrollbar{
+    width: 8px;
+    background:transparent;
+    background: #E3F2FD;
+
+}
+.proyectDescription_content::-webkit-scrollbar-thumb{
+    background: #0d47a1;
 }
 
 
@@ -809,6 +825,10 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.tecnologies_item p {
+    padding: 0.2em;
 }
 
 
