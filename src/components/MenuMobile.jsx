@@ -18,13 +18,13 @@ const MenuMobile = () => {
         <div className="menuContainer_mobile">
                 <ul className="mobileUl">
                         <li className="mobileLi" onClick={() => handleToggle()}>
-                            <Link to="/" >Inicio</Link>
+                            <Link to="/" >Main</Link>
                         </li>
                         <li className="mobileLi">
-                            <Link to="about" onClick={()=> handleToggle()}>Acerca</Link>
+                            <Link to="about" onClick={()=> handleToggle()}>About</Link>
                         </li>
                         <li className="mobileLi"> 
-                            <Link to="proyects" onClick={()=> handleToggle()}>Proyectos</Link>
+                            <Link to="proyects" onClick={()=> handleToggle()}>Proyects</Link>
                         </li>
                 </ul>
         </div>   
