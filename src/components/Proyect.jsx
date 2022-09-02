@@ -34,10 +34,10 @@ const Proyect = ({elements, key}) => {
                  
                     <div className="buttonsContainer">
                         <button type="button" >
-                            <a href={proyect.urlView} target="blank">ver</a>
+                            <a href={proyect.urlView} target="blank">See</a>
                         </button>
                         <button type="button">
-                            <a href={proyect.urlGit} target="blank">ver en Github</a>
+                            <a href={proyect.urlGit} target="blank">See on Github</a>
                         </button>
                     </div>
                     
