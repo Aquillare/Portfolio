@@ -44,7 +44,7 @@
 
 .proyectDescription{
     width: 30%;
-    height:420px;
+    max-height:420px;
     display: flex;
     flex-direction: column;
     top: 0px;
@@ -69,11 +69,23 @@
 
 .proyectDescription_content {
     display: flex;
+    max-height:150px ;
     width: 80%;
     height: auto;
     color: white;
     font-size: 20px;
     line-height: 25px;
+    overflow-y: auto;
+
+}
+.proyectDescription_content::-webkit-scrollbar{
+    width: 8px;
+    background:transparent;
+    background: #E3F2FD;
+
+}
+.proyectDescription_content::-webkit-scrollbar-thumb{
+    background: #0d47a1;
 }
 
 
@@ -101,6 +113,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.tecnologies_item p {
+    padding: 0.2em;
 }
 
 
