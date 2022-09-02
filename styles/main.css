@@ -897,11 +897,11 @@ a{
 
     .proyectDescription{
         width:100%;
-        height:15em;
+        min-height:20em;
         margin-bottom: 1em;
     }
     .proyectDescription_content{
-        height: 4em;
+        min-height: 8em;
         border-bottom: 1px solid wheat;
         overflow-y: scroll;
     }
