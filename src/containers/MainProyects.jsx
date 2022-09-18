@@ -35,8 +35,8 @@ const MainProyects = () => {
             description:"Web App were you can make to do list, filter them and check done tasks, implements browser storage for storing the app state.",
             tecnologies:["JavaScript","HTML","CSS","React"],
             cover:todoAppCover,
-            urlView:'https://todo-ap.netlify.app',
-            urlGit:'https://github.com/Aquillare/Todo-App',
+            urlView:'https://apptodo2.netlify.app/',
+            urlGit:'https://github.com/Aquillare/TodoApp-React-patrones-render',
 
         },
 
