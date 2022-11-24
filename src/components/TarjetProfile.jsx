@@ -13,9 +13,9 @@ const TarjetProfile = () => {
             <p className="tarjetProfile_subtitlte">Welcome to my portfolio </p>
         </div>
         
-        <img className="tarjetProfile_img" /*src={profilePhoto}*/ src={'https://i.postimg.cc/MHKcRrWh/foto-portfolio-sin-Fondo.png'}/>
+       {/* <img className="tarjetProfile_img" src={'https://i.postimg.cc/MHKcRrWh/foto-portfolio-sin-Fondo.png'} /> */}
         
-       </div>
+        </div> 
     </>
     );
 };
