@@ -8,7 +8,7 @@ const TarjetProfile = () => {
         <div className="tarjetProfile">
 
         <div className="tarjetProfile_text">
-            <h2 className="tarjetProfile_subtitlte">Hello! <br/>Mi name is Miguel Aguilar</h2>
+            <h2 className="tarjetProfile_subtitlte">Hello! <br/>My name is Miguel Aguilar</h2>
             <p className="tarjetProfile_subtitle2">Web Developer</p>
             <p className="tarjetProfile_subtitlte">Welcome to my portfolio </p>
         </div>
