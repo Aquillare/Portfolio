@@ -74,6 +74,22 @@
     
 }
 
+.seeMore_text {
+    font-size: 1.6em;
+    animation: pulse ease-in-out infinite 2s; 
+    color: white;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1; /* Comienza y termina completamente visible */
+        transform: scale(1); /* Tamaño original */
+    }
+    50% {
+        opacity: 0.2; /* Un poco transparente en el medio */
+        transform: scale(1.1); /* Aumenta el tamaño en el medio */
+    }
+}
 
 
 

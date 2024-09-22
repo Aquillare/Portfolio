@@ -4,7 +4,7 @@ import '../styles/global/Global.css';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Layout from '../containers/Layout';
-import Proyects from '../pages/Proyects';
+import Projects from '../pages/Projects';
 import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/UseInitialState';
 
@@ -25,7 +25,7 @@ const App = () =>{
 
                             <Route index element={<Home/>}/>
                             <Route path="about" element={<About/>}/>
-                            <Route path="proyects" element={<Proyects/>}/>
+                            <Route path="projects" element={<Projects/>}/>
                             
                         </Route>    
                         

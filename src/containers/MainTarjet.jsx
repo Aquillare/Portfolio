@@ -13,8 +13,6 @@ const MainTarjet = () => {
         
             <div className="container">
 
-                {/*<p className="container_title">Bienvenido a mi portafolio</p>*/}
-
                 <TarjetProfile/>
 
               

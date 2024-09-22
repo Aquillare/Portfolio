@@ -14,7 +14,7 @@ import cssIcon from '../../assets/icons/css3-icon.png';
 import githubIcon from '../../assets/icons/github-icon.png';
 import linkedinIcon from '../../assets/icons/linkedin-icon.png';
 
-//assets de MainProyects
+//assets de MainProjects
 
 
 const initialState = {
@@ -74,7 +74,7 @@ const initialState = {
     //     },
     // ],
 
-    // proyects:[
+    // projects:[
     //     {
     //         id:1,
     //         title:"Platzi Video",

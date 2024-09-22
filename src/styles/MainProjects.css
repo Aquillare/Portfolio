@@ -1,5 +1,5 @@
 
-.main_proyects{
+.main_projects{
     margin-top:30px;
     width: 100%;
     height: 100vh;
@@ -27,7 +27,7 @@
 
 
 
-.proyectsContainer{
+.projectsContainer{
     /* outline: 1px solid blue; */
     border-radius: 4px;
     margin-top: 40px;
@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.proyects_buttonsContainer{
+.projects_buttonsContainer{
     width: 300px;
     display: flex;
     justify-content: space-around;
@@ -52,7 +52,7 @@
     margin: 0.8em 0 0.8em 0;
 }
 
-.proyects_list{
+.projects_list{
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -62,7 +62,7 @@
 
 }
 
-.proyects_list_li{
+.projects_list_li{
     width: 0.7em;
     height: 0.7em;
     border-radius: 50%;
@@ -71,7 +71,7 @@
     cursor: pointer;
 }
 
-.proyects_list_li_id{
+.projects_list_li_id{
     width: 0.7em;
     height: 0.7em;
     border-radius: 50%;
@@ -83,7 +83,7 @@
     margin-top: 0.2em;
 }
 
-.proyects_button{
+.projects_button{
     width: 1em;
     height: 2em;
     background: linear-gradient(125deg, rgba(205, 213, 215, 0.613) ,#00A8E8);
@@ -95,22 +95,22 @@
     color: rgb(16, 14, 14);
 
 }
-.proyects_button:active{
+.projects_button:active{
     transform: scale3d(0.9,0.9,1);
 }
 
 @media(max-width:426px){
 
-    .proyectsContainer{
+    .projectsContainer{
         margin-top: 0;
     }
-    .proyects_buttonsContainer{
+    .projects_buttonsContainer{
         margin: 0 0 0.8em 0;
     }
 }
 
 @media(max-height:740px){
-    .main_proyects{
+    .main_projects{
         height: auto;
     }
 }

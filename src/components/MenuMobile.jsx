@@ -24,7 +24,7 @@ const MenuMobile = () => {
                             <Link to="about" onClick={()=> handleToggle()}>About</Link>
                         </li>
                         <li className="mobileLi"> 
-                            <Link to="proyects" onClick={()=> handleToggle()}>Proyects</Link>
+                            <Link to="projects" onClick={()=> handleToggle()}>Projects</Link>
                         </li>
                 </ul>
         </div>   

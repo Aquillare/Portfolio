@@ -1,32 +1,32 @@
 import React from 'react';
-import '../styles/Proyect.css';
+import '../styles/Project.css';
 import TecnologiesItem from './TecnologiesItem';
 
 
-const Proyect = ({elements, key}) => {
+const Project = ({elements, key}) => {
 
-    const proyect = elements;
+    const project = elements;
     let id = key;
 
     console.log(id);
 
     return(
-        <div className="proyect">
+        <div className="project">
 
             
 
             
-            <div className="proyectDescription">
+            <div className="projectDescription">
 
                 <div className="gosth">
 
-                    <h3 className="proyectDescription_title">{proyect.title}</h3>
+                    <h3 className="projectDescription_title">{project.title}</h3>
 
-                    <p className='proyectDescription_content'>{proyect.description}</p>
+                    <p className='projectDescription_content'>{project.description}</p>
 
                     <div className='tecnologies_container'>
 
-                        {proyect.tecnologies.map( element => {
+                        {project.tecnologies.map( element => {
                         return  <TecnologiesItem value={element} key={element}/>
                         })}    
 
@@ -34,10 +34,10 @@ const Proyect = ({elements, key}) => {
                  
                     <div className="buttonsContainer">
                         <button type="button" >
-                            <a href={proyect.urlView} target="blank">See</a>
+                            <a href={project.urlView} target="blank">See</a>
                         </button>
                         <button type="button">
-                            <a href={proyect.urlGit} target="blank">See on Github</a>
+                            <a href={project.urlGit} target="blank">See on Github</a>
                         </button>
                     </div>
                     
@@ -46,10 +46,10 @@ const Proyect = ({elements, key}) => {
                 
             </div>
 
-            <img id={key} className="proyectImg" src={proyect.cover} alt="proyect-image"/>
+            <img id={key} className="projectImg" src={project.cover} alt="project-image"/>
             
         </div>   
     );
 };
 
-export default Proyect;
+export default Project;

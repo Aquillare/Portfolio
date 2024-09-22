@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
-import Proyect from '../components/Proyect';
-import '../styles/MainProyects.css';
+import Project from '../components/Project';
+import '../styles/MainProjects.css';
 import thisTrailerCover from '../../assets/images/this-trailer-app-.png';
 import yardSaleCover from '../../assets/images/yardSale.png';
-import todoAppCover from '../../assets/images/TodoProyect.png';
+import todoAppCover from '../../assets/images/TodoProject.png';
 
 
-const MainProyects = () => {
+const MainProjects = () => {
 
-    const proyects = [
+    const projects = [
         {
             id:1,
             title:"This trailer",
@@ -54,33 +54,33 @@ const MainProyects = () => {
     }
 
     return(
-        <main className="main_proyects">
+        <main className="main_projects">
 
             <section className="container3">
 
              
                 
-                <div className="proyectsContainer">
+                <div className="projectsContainer">
 
                 
                     
-                        <Proyect elements={proyects[num]} key={proyects[num]['id']}/>
+                        <Project elements={projects[num]} key={projects[num]['id']}/>
                     
 
 
                 </div>
-                <div className='proyects_buttonsContainer'>
-                    <button className='proyects_button' onClick={() => counterPrevious(proyects) } type='button'> {'<'}</button>
-                    <ul className='proyects_list'> 
-                        {proyects.map( proyect => 
-                                        <li className={ num +1 === proyect.id ? 'proyects_list_li_id' : 'proyects_list_li'}
+                <div className='projects_buttonsContainer'>
+                    <button className='projects_button' onClick={() => counterPrevious(projects) } type='button'> {'<'}</button>
+                    <ul className='projects_list'> 
+                        {projects.map( proyect => 
+                                        <li className={ num +1 === proyect.id ? 'projects_list_li_id' : 'projects_list_li'}
                                             onClick={() => {setNum(proyect.id-1)}}    
                                         >
                                              <a ></a> 
                                         </li>)
                         }
                     </ul>
-                    <button className='proyects_button' onClick={() => counterNext(proyects) } type='button'> {'>'}</button>
+                    <button className='projects_button' onClick={() => counterNext(projects) } type='button'> {'>'}</button>
                 </div>
                     
             </section>
@@ -88,6 +88,6 @@ const MainProyects = () => {
     );
 };
 
-export default MainProyects;
+export default MainProjects;
 
 

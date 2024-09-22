@@ -1,4 +1,6 @@
 import React from 'react';
+import startUpImage from "../../assets/svg/start-up-7.svg";
+import { Link } from 'react-router-dom';
 import '../styles/TarjetProfile.css';
 
 const TarjetProfile = () => {
@@ -8,13 +10,20 @@ const TarjetProfile = () => {
         <div className="tarjetProfile">
 
         <div className="tarjetProfile_text">
-            <h2 className="tarjetProfile_subtitlte">Hello! <br/>My name is Miguel Aguilar</h2>
+            <h2 className="tarjetProfile_subtitlte">Hello! <br/>I'm Miguel Aguilar</h2>
             <p className="tarjetProfile_subtitle2">Web Developer</p>
             <p className="tarjetProfile_subtitlte">Welcome to my portfolio </p>
+            <label >
+                 
+            <Link className="seeMore_text" to="about">{"See more about me"}</Link>
+            </label>
         </div>
         
        {/* <img className="tarjetProfile_img" src={'https://i.postimg.cc/MHKcRrWh/foto-portfolio-sin-Fondo.png'} /> */}
+       <img className="tarjetProfile_img" src={startUpImage}/>
         
+
+
         </div> 
     </>
     );

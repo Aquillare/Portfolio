@@ -40,7 +40,7 @@ const Header = () => {
                         <Link to="about">About</Link>
                     </li>
                     <li className="desktopMenu_li">
-                        <Link to="proyects">Proyects</Link>
+                        <Link to="projects">Projects</Link>
                     </li>
                 </ul>
             </nav>

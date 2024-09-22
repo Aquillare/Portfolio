@@ -2,6 +2,7 @@ import React from 'react';
 import SkillsTarjet from '../containers/SkillsTarjet';
 import TextAbout from '../components/TextAbout';
 import '../styles/MainAbout.css';
+import scienceImage from "../../assets/svg/science-1-11.svg";
 
 
 
@@ -15,8 +16,11 @@ const MainAbout = () => {
 
             <div className="container2">
 
-                <h2 className="container_title">About me</h2>
-                <TextAbout/>    
+                {/* <h2 className="container_title">About me</h2>
+                 */}
+                 <TextAbout/>  
+                <img className="mainAbout_science_img" src={scienceImage} />
+                  
 
             </div>
 
