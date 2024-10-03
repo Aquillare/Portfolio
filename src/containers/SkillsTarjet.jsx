@@ -4,14 +4,13 @@ import SkillFigure from "../components/SkillFigure"
 import gitIcon from '../../assets/icons/git-icon.png';
 import htmlIcon from '../../assets/icons/html5-icon.png';
 import javascriptIcon from '../../assets/icons/javascript-icon.png';
-import webpackIcon from '../../assets/icons/webpack-icon.png';
-import npmIcon from '../../assets/icons/npm-icon.png';
 import reactIcon from '../../assets/icons/react-icon.png';
-import vscodeIcon from '../../assets/icons/vscode-icon.png';
 import cssIcon from '../../assets/icons/css3-icon.png';
 import nextIcon from '../../assets/icons/next.svg';
 import nodeIcon from '../../assets/icons/nodo-js.png';
 import postgreIcon from '../../assets/icons/postgre.png';
+import supabaseIcon from '../../assets/icons/supabase-logo.png'
+import tailwindIcon from '../../assets/icons/tailwind-icon.png';
 
 const SkillsTarjet = () => {
 
@@ -24,17 +23,17 @@ const SkillsTarjet = () => {
             name:'HTML5',
             src:htmlIcon,
         },
+        css:{
+            name:'CSS3',
+            src:cssIcon,
+        },
+        tailwind:{
+            name:'Tailwind CSS',
+            src:tailwindIcon
+        },
         javascript:{
             name:'Javascript',
             src:javascriptIcon,
-        },
-        webpack:{
-            name:'Webpack',
-            src:webpackIcon,
-        },
-        node:{
-            name:'Node js',
-            src:nodeIcon,
         },
         react:{
             name:'React',
@@ -44,34 +43,23 @@ const SkillsTarjet = () => {
             name:'Next js',
             src:nextIcon,
         },
-        css:{
-            name:'CSS3',
-            src:cssIcon,
+        node:{
+            name:'Node js',
+            src:nodeIcon,
         },
         postgreSql:{
             name:'PostgreSQL',
             src:postgreIcon,
         },
-        npm:{
-            name:'NPM',
-            src:npmIcon,
+        supabase:{
+            name:"Supabase",
+            src:supabaseIcon
         },
     }
 
     return(
         <div className="skillsTarjet_container">
-
-            <SkillFigure elements={SkillsElements.webpack}/>
-            <SkillFigure elements={SkillsElements.javascript}/>
-            <SkillFigure elements={SkillsElements.html}/>
-            <SkillFigure elements={SkillsElements.css}/>
-            <SkillFigure elements={SkillsElements.react}/>
-            <SkillFigure elements={SkillsElements.node}/>
-            <SkillFigure elements={SkillsElements.git}/>
-            <SkillFigure elements={SkillsElements.next}/>
-            <SkillFigure elements={SkillsElements.postgreSql}/>
-            <SkillFigure elements={SkillsElements.npm}/>
-                
+            {Object.values(SkillsElements).map((skill,id) =>  <SkillFigure key={id} elements={skill}/>)}        
         </div>
     );
 };
