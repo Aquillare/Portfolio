@@ -1,5 +1,6 @@
 import React from "react";
 import MainTarjet from "../containers/MainTarjet";
+import MainAbout from "../containers/MainAbout";
 import '../styles/Home.css';
 
 
@@ -15,6 +16,7 @@ const Home = () => {
     return(
         <div className="home">
             <MainTarjet/>
+            <MainAbout/>
         </div>
     );
    

@@ -1,12 +1,10 @@
 .textContainer{
-    align-self: center;
-    justify-self: center;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: center;
     color:#E3F2FD;
-    width: 30%;
+    width: 100%;
     height: auto;
     background: linear-gradient(22deg, #003459, #00A8E8 );
     padding: 20px 20px 20px 20px;
@@ -14,8 +12,9 @@
     border-bottom:10px rgba(000,000,000,0.6) solid ; 
     border-right:10px rgba(000,000,000,0.2)  solid ; 
     box-shadow: 1px 1px 4px black;
-    padding: 34px;
     text-align: left;
+    align-self: center;
+    justify-self: center;
 
 }
 

@@ -2,19 +2,19 @@
 .main_tarjet{
     margin-top:30px;
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
-
-    
+    padding: 4rem;
+    grid-column: span 12 ;
 }
 
 .container{
     width: 100%;
-    height: 100vh;
+
+
     display: flex;
     justify-content: space-around;
     /* align-items: center; */

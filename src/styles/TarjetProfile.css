@@ -19,42 +19,36 @@
 .tarjetProfile{
     background: #003459;
     background: linear-gradient(25deg, #00171F,#003459,#00171F,#003459, #00171F);
-    width: 85%;
-    height: 80%;
-    margin: 10px 10px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    /* box-shadow: -0.5px -0.5px 10px black; */
     box-shadow: -3.5px 3px 4px 0px black;
-    position: relative;
-    top:15px;
     color:white;
     border-radius: 10px;
-    justify-self: center;
-    align-self: center;
     padding: 2em;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .tarjetProfile_text{
-    width: 60%;
-    margin-left: 5px;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+    grid-column: span 2 ;
 }
 
 .tarjetProfile_title{
-    margin-left: 5px ;
     font-size: 6em;
 }
 .tarjetProfile_subtitlte{
     font-size: 3.5em;
-    margin: 0.5em 0;
+    margin-bottom: 0.5em;
     line-height: 1.2em;
 }
 
 .tarjetProfile_subtitle2{
     font-size: 5.5em;
+    margin-bottom: 0.5em;
     color:#00A8E8 ;
     font-weight: bold;
     text-shadow: 1px 0px 10px rgba(000, 000, 000, 0.4);
@@ -76,6 +70,7 @@
 
 .seeMore_text {
     font-size: 1.6em;
+    font-weight: bold;
     animation: pulse ease-in-out infinite 2s; 
     color: white;
 }
