@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
     padding: 4rem;
     grid-column: span 12 ;
 }
@@ -23,16 +23,6 @@
     
 }
 
-.container_title{
-   display: flex;
-   align-self: center;
-   width: 66%;
-   color: #E3F2FD;
-   font-size: 22px;
-   border-bottom: 1px solid #0d47a1;
-   background: linear-gradient(45deg, #0d47a1, rgba(000, 000, 000, 0.0));
-   border-radius: 20% 30% 0 0;
-}
 
 .container_buttons{
     display: flex;
@@ -52,9 +42,7 @@
         margin: 30px 0 30px 0;
     }
 
-    .container_title{
-        margin: 30px 0px 30px 0;
-    }
+
 
     .container_buttons{
         margin: 30px 0px 30px 0;

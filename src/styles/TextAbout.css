@@ -1,21 +1,15 @@
 .textContainer{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    color:#E3F2FD;
+    color:white;
     width: 100%;
     height: auto;
-    background: linear-gradient(22deg, #003459, #00A8E8 );
-    padding: 20px 20px 20px 20px;
-    border-radius: 10px 10px 0px 0px;
-    border-bottom:10px rgba(000,000,000,0.6) solid ; 
-    border-right:10px rgba(000,000,000,0.2)  solid ; 
+    padding: 2rem;
+    border-radius: 1rem;
     box-shadow: 1px 1px 4px black;
-    text-align: left;
-    align-self: center;
-    justify-self: center;
-
+    background-color: rgba(000, 000, 000, 0.8);
+    border-left: 1rem solid #00A8E8; ;
+    border-right: 1rem solid #00A8E8;
 }
 
 .textContainer p{

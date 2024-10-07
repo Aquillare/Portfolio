@@ -1,15 +1,12 @@
 .skillsTarjet_container{
-    background:linear-gradient(25deg, #00171F,#003459,#00171F,#003459, #00171F);
-    border-radius: 10% 10% 20% 20%;
+    background-color: rgba(000, 000, 000, 0.8);
+    border-radius: 1rem;
+    border-left: 1rem solid #00A8E8;
+    border-right: 1rem solid #00A8E8;
     display: grid;
     padding: 2rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    /* flex-wrap: wrap; */
-    /*border-top: 8px solid rgba(999, 999, 999, 0.2);*/
-    border-top: 8px solid #00A8E8;
-    border-right: 10px solid rgba(000, 000, 000, 0.4);
-    border-left: 10px solid #00A8E8;
     width: 100%;
     row-gap: 1rem;
 }

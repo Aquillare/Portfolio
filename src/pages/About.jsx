@@ -9,7 +9,7 @@ const About = () =>{
     }, []);
 
     return(
-        <MainAbout/>
+        <MainAbout id="About"/>
     );
 };
 

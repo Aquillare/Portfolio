@@ -15,7 +15,8 @@ const TarjetProfile = () => {
             <p className="tarjetProfile_subtitlte">Welcome to my portfolio </p>
             <label >
                  
-            <Link className="seeMore_text" to="about">{"See more about me"}</Link>
+            <a className="seeMore_text" href="#About">{"See more about me"}</a>
+           
             </label>
         </div>
         

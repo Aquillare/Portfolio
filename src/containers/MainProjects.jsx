@@ -42,46 +42,28 @@ const MainProjects = () => {
 
     ];
 
-  
 
     const [num, setNum] = useState(0);
 
-    const counterNext = (element) => {
-        num >= element.length -1 ? setNum(0): setNum(num+1);
-    };
-    const counterPrevious = (element) => {
-        num === 0 ? setNum(element.length -1) : setNum(num-1);
-    }
-
     return(
-        <main className="main_projects">
+        <main className="main_projects" id="Projects">
+
+            <div className="container_title">
+                            <h2>Projects</h2>
+                        </div>
 
             <section className="container3">
 
-             
+           
                 
-                <div className="projectsContainer">
 
                 
                     
-                        <Project elements={projects[num]} key={projects[num]['id']}/>
+                        <Project elements={projects[num]} key={projects[num]['id']}  num={num} setNum={setNum} projects={projects}/>
                     
 
 
-                </div>
-                <div className='projects_buttonsContainer'>
-                    <button className='projects_button' onClick={() => counterPrevious(projects) } type='button'> {'<'}</button>
-                    <ul className='projects_list'> 
-                        {projects.map( proyect => 
-                                        <li className={ num +1 === proyect.id ? 'projects_list_li_id' : 'projects_list_li'}
-                                            onClick={() => {setNum(proyect.id-1)}}    
-                                        >
-                                             <a ></a> 
-                                        </li>)
-                        }
-                    </ul>
-                    <button className='projects_button' onClick={() => counterNext(projects) } type='button'> {'>'}</button>
-                </div>
+                
                     
             </section>
     </main>

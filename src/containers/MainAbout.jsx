@@ -12,7 +12,11 @@ const MainAbout = () => {
 
 
     return(
-        <main className="main_about">
+        <main className="main_about" id="About">
+
+            <div className="container_title">
+                <h2>About me</h2>
+            </div>
 
             <div className="container2">
 

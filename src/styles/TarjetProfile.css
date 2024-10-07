@@ -17,12 +17,12 @@
 }
 
 .tarjetProfile{
-    background: #003459;
-    background: linear-gradient(25deg, #00171F,#003459,#00171F,#003459, #00171F);
+    /* background: #003459;
+    background: linear-gradient(25deg, #00171F,#003459,#00171F,#003459, #00171F); */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    box-shadow: -3.5px 3px 4px 0px black;
+    /* box-shadow: -3.5px 3px 4px 0px black; */
     color:white;
     border-radius: 10px;
     padding: 2em;
@@ -55,16 +55,15 @@
 }
 
 .tarjetProfile_img{
-    background: transparent;
+    background: rgba(240, 249, 250, 0.74);
+    backdrop-filter: blur(17.1px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(17.1px);
     width: 31em;
     height: 31em;
-    position: relative;
-    top:-40px;
-    right:-14px;
     border-radius:100%;
-    box-shadow: -4.5px 8px 2px 0px #00A8E8 ;
     object-fit: cover;
-    
+    mask-image: linear-gradient(white 60%, transparent);
     
 }
 

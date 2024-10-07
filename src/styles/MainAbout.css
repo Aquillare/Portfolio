@@ -1,7 +1,7 @@
 
 .main_about{
     width: 100%;
-    background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
+    background: linear-gradient(90deg, hsla(202, 27%, 45%, 1) 0%, hsla(213, 77%, 14%, 1) 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,16 +13,14 @@
 .container_title{
     display: flex;
     width: 100%;
-    color: #E3F2FD;
+    color: white;
     font-size: 2em;
-    border-bottom: 1px solid #00A8E8;
-    background: linear-gradient(45deg, #003459, rgba(000, 000, 000, 0.0));
-    border-radius: 20% 30% 0 0;
+    margin-bottom: 2rem;
  }
 
 .container2{
     width: 100%;
-    height: 30rem;
+    height: 28rem;
     display: grid;
     gap: 3rem;
     justify-content: center;
@@ -44,12 +42,12 @@
 }
 
 .mainAbout_science_img{
-    background: linear-gradient(25deg, #00171F,#003459,#00171F,#003459, #00171F);
+    background: rgba(240, 249, 250, 0.74);
     width: 21em;
     height: 21em;
 
     border-radius:100%;
-    box-shadow: -4.5px 8px 2px 0px whitesmoke ;
+    box-shadow: 4.5px 4px 2px 0px whitesmoke ;
     object-fit: cover;
     align-self: center;
     justify-self: center;
@@ -68,11 +66,6 @@
     }
 }
 
-@media(max-width:768px){
-    .container_title{
-        width: 80%;
-    }
-}
 
 
 

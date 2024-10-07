@@ -3,10 +3,11 @@
     height: 52px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(45deg,#003459 80%,#00A8E8);
+    background: linear-gradient(90deg, hsla(202, 27%, 45%, 1) 0%, hsla(213, 77%, 14%, 1) 100%);
     box-shadow: 1px 1px 10px black;
     position: fixed;
     top:0px;
+    border-bottom: 2px solid #00A8E8;
 }
 .desktopMenu_ul{
     width: 70%;

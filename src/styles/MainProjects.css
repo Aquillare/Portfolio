@@ -1,117 +1,30 @@
 
 .main_projects{
-    margin-top:30px;
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(11, 178, 255, 0.494), #003459);
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    
+    grid-column: span 12 ;
+    padding: 4rem;
 }
 
 .container3{
-    margin-top: 40px;
-    margin-bottom: 20px;
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
 }
 
 
 
 
-.projectsContainer{
-    /* outline: 1px solid blue; */
-    border-radius: 4px;
-    margin-top: 40px;
-    width: 95%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    /*background: linear-gradient(180deg, #0d48a1b4, rgba(000, 000, 000, 0.0));*/
-    align-self: center;
-    justify-self: center;
-    align-items: center;
-}
-
-.projects_buttonsContainer{
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 40px;
-    margin: 0.8em 0 0.8em 0;
-}
-
-.projects_list{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 100%;
-
-}
-
-.projects_list_li{
-    width: 0.7em;
-    height: 0.7em;
-    border-radius: 50%;
-    background: linear-gradient(125deg, rgba(205, 213, 215, 0.613) ,#00A8E8);
-    margin-top: 1em;
-    cursor: pointer;
-}
-
-.projects_list_li_id{
-    width: 0.7em;
-    height: 0.7em;
-    border-radius: 50%;
-    background: rgba(000, 000, 000, 0.8);
-    transition: all 500ms;
-    cursor: pointer;
-    border-bottom: 1px solid #00A8E8;
-    border-left: 1 px solid #E3F2FD;
-    margin-top: 0.2em;
-}
-
-.projects_button{
-    width: 1em;
-    height: 2em;
-    background: linear-gradient(125deg, rgba(205, 213, 215, 0.613) ,#00A8E8);
-    margin-top: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.3em;
-    color: rgb(16, 14, 14);
-
-}
-.projects_button:active{
-    transform: scale3d(0.9,0.9,1);
-}
-
-@media(max-width:426px){
-
-    .projectsContainer{
-        margin-top: 0;
-    }
-    .projects_buttonsContainer{
-        margin: 0 0 0.8em 0;
-    }
-}
 
 @media(max-height:740px){
     .main_projects{
         height: auto;
+        grid-column: span 12;
     }
 }
 

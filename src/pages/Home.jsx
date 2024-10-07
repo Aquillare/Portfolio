@@ -2,6 +2,7 @@ import React from "react";
 import MainTarjet from "../containers/MainTarjet";
 import MainAbout from "../containers/MainAbout";
 import '../styles/Home.css';
+import MainProjects from "../containers/MainProjects";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <div className="home">
             <MainTarjet/>
             <MainAbout/>
+            <MainProjects/>
         </div>
     );
    

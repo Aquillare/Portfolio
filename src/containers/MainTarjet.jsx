@@ -9,7 +9,7 @@ import '../styles/MainTarjet.css';
 const MainTarjet = () => {
 
     return(
-        <main className="main_tarjet">
+        <main className="main_tarjet" id="Main">
         
             <div className="container">
 
