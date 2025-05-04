@@ -11,6 +11,7 @@
 }
 .desktopMenu_ul{
     width: 70%;
+    max-width: 1240px;
     display: flex;
     justify-content: flex-end;
     list-style: none;

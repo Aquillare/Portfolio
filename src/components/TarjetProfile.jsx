@@ -11,7 +11,7 @@ const TarjetProfile = () => {
 
         <div className="tarjetProfile_text">
             <h2 className="tarjetProfile_subtitlte">Hello! <br/>I'm Miguel Aguilar</h2>
-            <p className="tarjetProfile_subtitle2">Software Developer</p>
+            <p className="tarjetProfile_subtitle2">Frontend Developer</p>
             <p className="tarjetProfile_subtitlte">Welcome to my portfolio </p>
             <label >
                  

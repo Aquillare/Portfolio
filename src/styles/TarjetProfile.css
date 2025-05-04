@@ -41,13 +41,13 @@
     font-size: 6em;
 }
 .tarjetProfile_subtitlte{
-    font-size: 3.5em;
+    font-size: 3rem;
     margin-bottom: 0.5em;
     line-height: 1.2em;
 }
 
 .tarjetProfile_subtitle2{
-    font-size: 5.5em;
+    font-size: 4.5rem;
     margin-bottom: 0.5em;
     color:#00A8E8 ;
     font-weight: bold;
@@ -103,6 +103,7 @@
     .tarjetProfile_text{
         font-size: 9px;
       }
+   
   }
 
   @media(max-width:614px){
@@ -113,16 +114,10 @@
         font-size: 7em;
         margin-left: 0;
     }
-    .tarjetProfile_subtitlte{
-        font-size: 4em;
-        margin: 0.5em 0;
-    }
-    .tarjetProfile_subtitle2{
-        font-size: 5.5em;
-    }
     .tarjetProfile_text{
         font-size: 7.5px;
       }
+    
   }
   
 
@@ -132,9 +127,14 @@
     .tarjetProfile{
         font-size: 5.5px;
         flex-flow: column-reverse;
+        grid-template-columns: 1fr;
+        margin: auto 
     }
     .tarjetProfile_text{
         font-size: 6.5px;
+      }
+      .tarjetProfile_img{
+        display: none;
       }
   }  
 
@@ -147,13 +147,6 @@
     .tarjetProfile_title{
         font-size: 7em;
         margin-left: 0;
-    }
-    .tarjetProfile_subtitlte{
-        font-size: 4em;
-        margin: 0.5em 0;
-    }
-    .tarjetProfile_subtitle2{
-        font-size: 5.5em;
     }
     .tarjetProfile_text{
         font-size: 5.7px;
