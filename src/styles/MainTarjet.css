@@ -48,11 +48,14 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:614px){
 
     .container_buttons{
         width: 40%;
     }
 
+    .main_tarjet{
+        padding: 2rem;
+    }
 }
 

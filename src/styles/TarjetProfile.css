@@ -68,7 +68,7 @@
 }
 
 .seeMore_text {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: bold;
     animation: pulse ease-in-out infinite 2s; 
     color: white;

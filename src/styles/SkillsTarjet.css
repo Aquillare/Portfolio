@@ -17,20 +17,21 @@
 
     .skillsTarjet_container{
         height: auto;
-        width: 370px;
-        grid-template-columns: 1fr 1fr;
+        width: auto;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+       
     }
-
 }
 
 
 @media(max-width:450px){
     .skillsTarjet_container{
         height: auto;
-        width: 300px;
+        width: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap:2rem;
     }
 
 }
@@ -39,9 +40,10 @@
     
     .skillsTarjet_container{
         height: auto;
-        width: 260px;
+        width: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap:2rem;
     }
     
 }

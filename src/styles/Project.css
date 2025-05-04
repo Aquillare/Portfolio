@@ -211,6 +211,19 @@
     }
 }
 
+@media(max-width:614px){
+
+
+    .projectImg{
+        grid-column: 1;
+    }
+    .projectDescription{
+        grid-column: 1;
+    }
+}
+
+
+
 @media(max-width:426px){
     .proyectImg{
         width: 100%;

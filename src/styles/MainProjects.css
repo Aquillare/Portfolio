@@ -29,3 +29,16 @@
     }
 }
 
+@media(max-width:614px){
+   
+    .main_projects{
+        padding: 2rem;
+    }
+
+    .container3{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+    }
+  }
+
